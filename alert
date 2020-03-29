@@ -1,0 +1,7 @@
+coomand /alert [<text>]:
+    trigger:
+        if arg 1 is set:
+            loop all players:
+                send loop-players title "&4&lUwaga:" with subtitle    
+        if arg 1 is not set:
+            send "&8)) &7Poprawne użycie: &3/alert [wiadomość]  
